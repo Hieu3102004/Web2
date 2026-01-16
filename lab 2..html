@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Web Programming 2</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #f4f4f4;
+        margin: 0;
+        padding: 0;
+      }
+
+      /* ===== HEADER ===== */
+      .header {
+        background: #2c97e8;
+        color: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin: 20px;
+      }
+
+      .header h1 {
+        margin: 0 0 15px 0;
+      }
+
+      .header p {
+        margin: 5px 0;
+        font-weight: bold;
+      }
+
+      .menu a {
+        color: white;
+        text-decoration: none;
+        margin-right: 15px;
+        font-weight: bold;
+      }
+
+      /* ===== SECTION ===== */
+      .container {
+        background: white;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      .highlight {
+        color: red;
+        font-style: italic;
+        border-left: 4px solid orange;
+        padding-left: 10px;
+        background: #fff4e5;
+        margin: 10px 0;
+      }
+
+      img {
+        margin-top: 15px;
+        border-radius: 5px;
+      }
+
+      /* ===== FORM ===== */
+      label {
+        display: block;
+        margin-top: 10px;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+      }
+
+      button {
+        margin-top: 15px;
+        width: 100%;
+        padding: 10px;
+        background: #4caf50;
+        color: white;
+        border: none;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+      /* ===== TABLE ===== */
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      th {
+        background: #1e88e5;
+        color: white;
+        padding: 10px;
+      }
+
+      td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+      }
+
+      tr:nth-child(even) {
+        background: #f2f2f2;
+      }
+
+      /* ===== FOOTER ===== */
+      footer {
+        text-align: center;
+        margin: 20px;
+        color: gray;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ===== IMAGE 1 ===== -->
+    <div class="header">
+      <h1>Welcome to Web Programming 2 Course</h1>
+      <p>Student Name: <strong>Nguyen Van A</strong></p>
+      <p>Student ID: <strong>1234567890</strong></p>
+
+      <div class="menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <div class="container">
+      <h2>About HTML</h2>
+
+      <div class="highlight">
+        HTML stands for <strong>HyperText Markup Language</strong>.
+      </div>
+
+      <p>It is the standard language for creating web pages.</p>
+
+      <img src="https://picsum.photos/200/300" alt="Sample Image" />
+      <p><em>Src: https://picsum.photos/200/300</em></p>
+    </div>
+
+    <!-- ===== IMAGE 2 ===== -->
+    <div class="container">
+      <h2>Welcome to the Web Programming Course! 🎓</h2>
+
+      <p>Your grade: <strong>A+</strong></p>
+
+      <button>Submit</button>
+
+      <p>Have a nice day! 😊</p>
+
+      <h3>Sample Article</h3>
+      <p style="color: red">This is an article section with an ordered list:</p>
+      <ol>
+        <li>Introduction</li>
+        <li>Details</li>
+        <li>Summary</li>
+      </ol>
+
+      <h3>Contact Form</h3>
+      <label>Name:</label>
+      <input type="text" />
+
+      <label>Email:</label>
+      <input type="email" />
+
+      <label>Message:</label>
+      <textarea rows="4"></textarea>
+
+      <button>Send</button>
+
+      <table>
+        <tr>
+          <th>Student Name</th>
+          <th>ID</th>
+          <th>Course</th>
+          <th>Grade</th>
+        </tr>
+        <tr>
+          <td>Alice Nguyen</td>
+          <td>1001</td>
+          <td>Web Programming</td>
+          <td>A</td>
+        </tr>
+        <tr>
+          <td>Bob Tran</td>
+          <td>1002</td>
+          <td>Database</td>
+          <td>B+</td>
+        </tr>
+        <tr>
+          <td>Charlie Le</td>
+          <td>1003</td>
+          <td>Algorithms</td>
+          <td>A-</td>
+        </tr>
+      </table>
+    </div>
+
+    <footer>© 2025 Web Programming Course</footer>
+  </body>
+</html>
