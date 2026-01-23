@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Return Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Calculations</h2>
+
+        <div class="input-group">
+            <label>Input 1 (Width / Weight / Hour):</label>
+            <input type="number" id="input1" placeholder="Enter first number...">
+        </div>
+
+        <div class="input-group">
+            <label>Input 2 (Height / Minute):</label>
+            <input type="number" id="input2" placeholder="Enter second number...">
+        </div>
+
+        <div class="button-grid">
+            <button onclick="doCalcArea()">1. Calculate Area</button>
+            <button onclick="doCalcPerimeter()">2. Calculate Perimeter</button>
+            <button onclick="doCalcAverage()">3. Calculate Average</button>
+            <button onclick="doCalcBMI()">4. Calculate BMI</button>
+            <button onclick="doCalcTotalMinute()">5. Calc Total Minutes</button>
+            <button onclick="doFindMax()">6. Find Max Value</button>
+        </div>
+
+        <button class="btn-reset" onclick="resetForm()">Reset</button>
+
+        <div class="result-box">
+            Result <span id="calcType" class="filled-text">______</span> 
+            is 
+            <span id="calcResult" class="filled-text">______</span>
+        </div>
+    </div>
+
+    <script src="week3.js"></script>
+</body>
+</html>
